@@ -20,7 +20,7 @@
 \RequirePackage[dvipsnames]{xcolor}
 
 % Coloring for references (n.b. cite with \citep{...})
-\RequirePackage[colorlinks=true,linkcolor=black,citecolor=RoyalBlue,urlcolor=black]{hyperref}
+\RequirePackage[colorlinks=true,linkcolor=RoyalBlue,citecolor=RoyalBlue,urlcolor=black]{hyperref}
 % include 'Figure' in link formatting above
 \RequirePackage[capitalize,noabbrev,nameinlink]{cleveref}
 \crefformat{equation}{\color{RoyalBlue}Equation~\textup{#2#1#3}}
@@ -29,7 +29,7 @@
 
 %% Set the citation and bibliography style
 %\bibliographystyle{neuron}
-\bibliographystyle{/Users/mobeets/texmf/tex/biopreprint/neuron.bst}
+\bibliographystyle{/Users/mobeets/Library/texmf/tex/latex/biopreprint/neuron.bst}
 
 \newcommand{\figtitle}[1]{{\bfseries\color{Mahogany}#1}}
 \renewcommand\abstracttitle{Summary}
